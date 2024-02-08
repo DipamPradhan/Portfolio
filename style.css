@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header_section {
+  padding: 10px 0;
+  background-color: #393e46;
+  color: white;
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 50px;  */
+}
+
+.header_section .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_section .nav_elements ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  font-family: "Rubik Doodle Shadow", system-ui;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_section ul li {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header_section ul li:hover {
+  cursor: pointer;
+  /* display: inline-block; */
+  border-bottom: 2px solid #4deeea;
+  background-color: #393e46;
+  border-radius: 20px;
+  opacity: 0.6;
+}
+
+.header_section .nav_elements li .braces {
+  color: #4deeea;
+  font-size: 18px;
+}
+
+.header_section .logo h2 {
+  text-align: center;
+  font-size: 40px;
+  /* font-family: ; */
+  font-family: "Press Start 2P", system-ui;
+  padding: 10px 0;
+  /* font-family: ; */
+}
+
+.header_section .nav_elements ul li {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 13px;
+}
+
+.hero_section {
+  background-color: #393e46;
+  position: relative;
+}
+
+.hero_section .overlay {
+  height: 800px;
+  width: 100%;
+}
+
+.hero_section_content {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  display: flex;
+  gap: 200px;
+}
+
+.hero_section_content .code_block .code {
+  color: #4deeea;
+  font-size: 18px;
+}
+
+.hero_section_content .code_block {
+  color: #4deeea;
+  /* text-align: center; */
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+}
+
+.hero_section_content h1 {
+  color: white;
+  font-size: 45px;
+  font-family: "Rock Salt", cursive;
+}
+
+.hero_section_content .intro .intro_first {
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+.hero_section_content .intro .code_next {
+  color: #4deeea;
+  font-size: 16px;
+  font-family: "Kanit", sans-serif;
+}
+
+.hero_section_content .intro .name {
+  color: white;
+  font-size: 30px;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.hero_section_content .intro .title {
+  color: white;
+  font-size: 28px;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.hero_section_content .intro .intro_next {
+  padding-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero_section_content .image_container img {
+  height: 500px;
+  margin-top: -30px;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: #4deeea 0px 13px 27px -5px, #4deeea 0px 8px 16px -8px;
+}
+
+/* .footer_section .container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: space-between;
+  width: 95%;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer_section {
+  background-color: black;
+  padding: 40px 0;
+}
+
+.footer_section ul {
+  list-style: none;
+}
+
+.footer_section h4 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.footer_section .footer_link .social_icons ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.footer_section ul li {
+  padding: 3px 0;
+}
+
+.footer_section .social_icons li {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+.footer_section .social_icons li i {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.footer_section p {
+  color: white;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+  border-top: 1px solid white;
+  padding-top: 40px;
+} */
+
+.skill_section {
+  background-color: #393e46;
+  position: relative;
+  display: flex;
+}
+
+.skill_section .overlay {
+  height: 800px;
+  width: 100%;
+}
+
+.skill_section .container {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  display: flex;
+  gap: 200px;
+}
+
+.skill_section h3 {
+  color: white;
+  font-family: "Rock Salt", cursive;
+  margin-bottom: 30px;
+}
+
+.skill_section .language h2 {
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.skill_section .language ul {
+  list-style: none;
+  color: #4deeea;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+
+.skill_section .language ul li {
+  margin: 10px;
+}
+
+.skill_section .projects h2 {
+  margin-top: 80px;
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.skill_section .projects ul {
+  list-style: none;
+  color: #4deeea;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+
+.skill_section .projects ul li {
+  margin: 10px;
+}
+
+.projects a {
+  color: #4deeea;
+}
+
+.skill_section .projects .detail {
+  color: white;
+  font-size: 12px;
+}
+
+.holder .image {
+  margin-top: 150px;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.holder .image img {
+  height: 250px;
+}
