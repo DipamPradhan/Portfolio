@@ -280,7 +280,7 @@ a {
 }
 
 .active_page {
-  border-bottom: 2px solid #4deeea;
+  border-bottom: 1.9px solid #4deeea;
   /* background-color: #393e46; */
   border-radius: 20px;
   /* opacity: 0.6; */
