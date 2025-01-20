@@ -53,13 +53,55 @@ a {
 
 .header_section .logo h2 {
   text-align: center;
+  position: relative;
   font-size: 40px;
   /* font-family: ; */
   font-family: "Press Start 2P", system-ui;
   padding: 10px 0;
   /* font-family: ; */
+  transition: color 0.3s ease;
 }
 
+.header_section .logo h2 a:hover {
+  color: transparent; /* Hide the original text */
+}
+.header_section .logo h2 a::after {
+  content: "Dipam";
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smoothly fade in the new text */
+}
+
+.header_section .logo h2 a:hover {
+  top: -5px;
+  color: transparent; /* Fade out the original text */
+}
+
+.header_section .logo h2 a:hover::after {
+  opacity: 1; /* Fade in the new text */
+  color: white;
+}
+
+/* .header_section .logo h2::after{
+  content: "Dipam";
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+  
+} */
+
+/* .header_section .logo h2:hover::after{
+  opacity: 1;
+} */
+
+/* .header_section .logo h2:hover {
+ display: none;
+} */
 .header_section .nav_elements ul li {
   text-align: center;
   font-size: 19px;
